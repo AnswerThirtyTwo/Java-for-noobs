@@ -29,7 +29,6 @@ public class KeyHandler implements KeyListener{
         if(code == KeyEvent.VK_D) {
             rightPressed = true;
         }
-
     }
 
     @Override
@@ -37,10 +36,8 @@ public class KeyHandler implements KeyListener{
 
         int code = e.getKeyCode();
 
-        int code = e.getKeyCode();
-
         if(code == KeyEvent.VK_W) {
-                upPressed = false;
+            upPressed = false;
         }
         if(code == KeyEvent.VK_S) {
             downPressed = false;
