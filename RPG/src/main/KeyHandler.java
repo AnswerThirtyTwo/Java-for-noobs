@@ -13,7 +13,7 @@ public class KeyHandler implements KeyListener{
     }
 
     @Override
-    public void keyPressed(KeyEvent ) {
+    public void keyPressed(KeyEvent e) {
 
         int code = e.getKeyCode();
 
@@ -21,7 +21,7 @@ public class KeyHandler implements KeyListener{
                 upPressed = true;
         }
         if(code == KeyEvent.VK_S) {
-            downPressed = true
+            downPressed = true;
         }
         if(code == KeyEvent.VK_A) {
             leftPressed = true;
@@ -33,7 +33,7 @@ public class KeyHandler implements KeyListener{
     }
 
     @Override
-    public void keyReleased(KeyEvent ) {
+    public void keyReleased(KeyEvent e) {
 
         int code = e.getKeyCode();
 
@@ -43,7 +43,7 @@ public class KeyHandler implements KeyListener{
                 upPressed = false;
         }
         if(code == KeyEvent.VK_S) {
-            downPressed = false
+            downPressed = false;
         }
         if(code == KeyEvent.VK_A) {
             leftPressed = false;
